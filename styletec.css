@@ -1,0 +1,67 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: #ffffff;
+}
+
+.container{
+    background-color:#fff;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-areas: ". header ."
+                         ". main ."
+                         "footer footer footer";
+}
+
+header{
+    background: #ffffff;
+    grid-area: header;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.buscaDiv{
+    background-color: #a2dd;
+    color: #fff;
+    height: 50%;
+    display: grid;
+    grid-template-rows: 2fr 4fr;
+    grid-template-areas: "logo busca";
+    justify-content: start;
+}
+
+
+.busca {
+    overflow: hidden;
+    background-color: blue;
+    padding-top: 13px;
+}
+
+.logo{
+    width: 220px;
+}
+
+.logoDiv{
+    background-color: crimson;
+    width: 220px;
+}
+
+.menuHorizontal{
+    background-color:rgb(255, 251, 0, 0.867);
+    color: #fff;
+    height: 50%;
+}
+  
+main{
+    background: rgb(78, 166, 201);
+    grid-area: main;
+}
+
+  
+footer{
+    background: rgb(74, 213, 238);
+    grid-area: footer
+}
