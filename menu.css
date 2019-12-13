@@ -1,0 +1,44 @@
+.menuHorizontal{
+    display: flex;
+    padding: 0;
+    background-color: chartreuse;
+    align-content: space-between;
+    margin-bottom: -10px;
+}
+
+.navigation ul {
+    border: 1px solid white;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 70vw;
+    align-items: center;
+    align-content: space-between;
+    justify-content: flex-start;
+}
+
+.navigation li {
+    flex: 3; 
+    width: 100vw;
+}
+
+.navigation .user {
+    flex: 1;
+}
+
+a {
+    color: black;
+    font-family: 'Arazati Negra Expandida';
+    text-decoration: none;
+    background:white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+ 
+a:hover {
+    color: #0000ff;
+    background-color: lightcoral;
+    
+}

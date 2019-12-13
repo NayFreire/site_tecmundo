@@ -20,47 +20,86 @@ header{
     background: #ffffff;
     grid-area: header;
     color: #fff;
-    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .buscaDiv{
-    background-color: #a2dd;
-    color: #fff;
-    height: 50%;
-    display: grid;
-    grid-template-rows: 2fr 4fr;
-    grid-template-areas: "logo busca";
-    justify-content: start;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 5px;
 }
 
 
-.busca {
-    overflow: hidden;
-    background-color: blue;
-    padding-top: 13px;
-}
 
 .logo{
-    width: 220px;
+    width: 15%;
+    display: flex;
+    align-content: center;
 }
 
-.logoDiv{
-    background-color: crimson;
-    width: 220px;
+.blackfriday{
+    width: 10%;
 }
 
-.menuHorizontal{
-    background-color:rgb(255, 251, 0, 0.867);
-    color: #fff;
-    height: 50%;
+.searchbar{
+    width: 30vw;
+    display: flex;
+    align-content: space-around;
+    margin-bottom: 10px;
 }
   
 main{
     background: rgb(78, 166, 201);
     grid-area: main;
+    padding: 5px;
 }
 
-  
+.noticiaGrande{
+    width: 55%;
+    height: 100%;
+    background-color: lightgreen;
+    margin: 0;
+}
+
+.noticiaCarousel{
+    width: 100%;
+    height: 70%;
+}
+
+.antesMancheteGrande{
+    color: #0000ff;
+    margin: 10px 5px -7px
+}
+
+.mancheteGrande{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 5px;
+}
+
+.noticiasMenores{
+    display: flex;
+    align-content: flex-start;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+}
+
+.noticias1{
+    background-color: #ff0000;
+    display: grid;
+    grid-template-columns: 10fr 5fr;
+    grid-template-rows: 9fr 3fr;
+    grid-template-areas: "noticiaGrange noticiasMenores"
+                         "noticiaGrange noticiasMenores"
+                         "noticiaGrange noticiasMenores";
+    width: 100%;
+    height: 55%;
+   
+}  
+
 footer{
     background: rgb(74, 213, 238);
     grid-area: footer
