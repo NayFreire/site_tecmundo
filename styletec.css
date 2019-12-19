@@ -143,6 +143,7 @@ button{
     display: grid;
     grid-template-columns: 4fr 2fr;
     grid-template-areas: "noticias6blocos materiasEspeciais";
+    grid-template-areas: "noticias6blocos materiasEspeciais";
     
     font-family: "Source Sans Pro,sans-serif";
 }
@@ -187,6 +188,7 @@ h3{
 .hrtotal{
     margin: 20px 0 20px 0;
 }
+
 
 footer{
     background: rgb(74, 213, 238);
