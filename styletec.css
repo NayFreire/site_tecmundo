@@ -99,13 +99,93 @@ main{
 }  
 
 section{
-    color: #fff;
+    color: #000000;
 }
 
 .mancheteP{
     margin-left: 5px;
     font-family: 'Arazati Negra Expandida';
     color: black;
+}
+
+.menubloco6{
+    display: flex;
+    align-content: space-between;
+    padding: 0;
+}
+
+.botoesbloco6{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    /*background-color: #ffff00;*/
+    width: 60%;
+}
+
+
+.maisLidas{
+    text-align: justify;
+    margin-right: 190px;
+}
+
+button{
+    height: 24px;
+    width: 60px;
+    cursor: pointer;
+    background-color: #c1c1c1;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin: 26px 0px 0px 10px;
+}
+
+.noticiasEmBlocos{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-areas: "noticias6blocos materiasEspeciais";
+    
+    font-family: "Source Sans Pro,sans-serif";
+}
+
+.noticias6blocos{
+    display: flex;
+    grid-area: noticias6blocos;
+}
+
+.imagembloco6{
+    margin: 5px 5px 5px 5px;
+    align-content: center;
+
+}
+
+.largura{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.noticiasHSM{
+    display: flex;
+    align-self: center;
+}
+
+.materiasEspeciais{
+    grid-area: materiasEspeciais;
+    margin: 5px 5px;
+}
+
+h3{
+    margin-left: 15px;
+}
+
+.hrpequeno{
+    width: 60%;
+    margin-left: 0;
+    color: black;
+    margin: 20px 0 20px 0;
+}
+
+.hrtotal{
+    margin: 20px 0 20px 0;
 }
 
 footer{
