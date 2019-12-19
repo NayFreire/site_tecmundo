@@ -141,11 +141,14 @@ button{
 
 .noticiasEmBlocos{
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 6fr 4fr;
+    grid-template-rows: 10fr 5fr;
     grid-template-areas: "noticias6blocos materiasEspeciais";
-    grid-template-areas: "noticias6blocos materiasEspeciais";
+    /*grid-template-areas: "noticias6blocos reviews";
+    grid-template-areas: "ultimasNoticias reviews";*/
     
     font-family: "Source Sans Pro,sans-serif";
+    width: 60%;
 }
 
 .noticias6blocos{
@@ -189,6 +192,14 @@ h3{
     margin: 20px 0 20px 0;
 }
 
+.ultimasNoticias{
+    grid-area: ultimasNoticias;
+    width: 60%;
+}
+
+.reviews{
+    width: 40%;
+}
 
 footer{
     background: rgb(74, 213, 238);
