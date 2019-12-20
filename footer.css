@@ -1,6 +1,50 @@
+footer{
+    background-color: #f2f2f2;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-areas: ". footerCentralizado .";
+    font-family: 'Arazati Negra Expandida';
+    margin-top: 20px;
+    border-top: #f3f3f3;
+}
+
+.footer1{    
+    display: flex;
+}
+
 .footerCentralizado{
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
-    background-color: #ffffff;
+    width: 100%;
+    grid-area: footerCentralizado;
+}
+
+.footerCategorias{
+    display: flex;
+    width: 60%;
+}
+
+.footerOutros{
+    width: 20%;
+}
+
+.footerCupons{
+    width: 20%;
+}
+
+ol{
+    width: 100px;
+}
+
+span{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.categoriaOrganiza{
+    margin-left: 20px;
+}
+
+.cat{
+    margin-top: 40px;
+    margin-left: 40px;
 }
