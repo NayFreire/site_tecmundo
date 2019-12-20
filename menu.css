@@ -1,7 +1,7 @@
 .menuHorizontal{
     display: flex;
     padding: 0;
-    background-color: chartreuse;
+    background-color: #fff;
     align-content: space-between;
     margin-bottom: -10px;
 }
