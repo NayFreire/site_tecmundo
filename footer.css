@@ -1,12 +1,13 @@
 footer{
-    background-color: #f2f2f2;
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 6fr 1fr;
-    grid-template-areas: ". footerCentralizado .";
     font-family: 'Arazati Negra Expandida';
-    margin-top: 20px;
-    border-top: #f3f3f3;
+    grid-area: footer;
+}
+
+.footerPart1{
+    background-color: #f2f2f2;
+
 }
 
 .footer1{    
@@ -15,7 +16,6 @@ footer{
 
 .footerCentralizado{
     width: 100%;
-    grid-area: footerCentralizado;
 }
 
 .footerCategorias{
@@ -31,15 +31,6 @@ footer{
     width: 20%;
 }
 
-ol{
-    width: 100px;
-}
-
-span{
-    margin-top: 50px;
-    width: 100%;
-}
-
 .categoriaOrganiza{
     margin-left: 20px;
 }
@@ -47,4 +38,46 @@ span{
 .cat{
     margin-top: 40px;
     margin-left: 40px;
+}
+
+.footerPart2{
+    background-color: #d9d9d9;
+
+}
+
+.footer2{
+    width: 100%;
+}
+
+.divisao1{
+    display: flex;
+    align-content: space-between;
+}
+
+.nzn{
+    align-self: center;
+}
+
+.nznImagem{
+    margin-left: 30px;
+    align-self: center;
+}
+
+.copyright{
+    margin-left: 25px;
+}
+
+.divisao2{
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+}
+
+h5{
+    margin-left: 60px;
+}
+
+.padLateral{
+    padding-left: 200px;
+    padding-right: 200px;
 }

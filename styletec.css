@@ -9,7 +9,6 @@ html, body{
     background-color:#fff;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 1fr 6fr 1fr;
     grid-template-areas: ". header ."
                          ". main ."
                          "footer footer footer";
@@ -27,6 +26,12 @@ header{
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 5px;
+}
+
+input{
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(242, 242, 242, 0.945);
 }
 
 .logo{
@@ -50,7 +55,6 @@ main{
     background: #fff;
     grid-area: main;
     padding: 5px;
-    margin-top: -150px;
 }
 
 .noticiaGrande{
@@ -244,7 +248,3 @@ h4{ margin-left: 15px;
     border-radius: 10px;
 }
 
-footer{
-    background: rgb(74, 213, 238);
-    grid-area: footer
-}
