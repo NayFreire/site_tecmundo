@@ -3,6 +3,7 @@ html, body{
     padding: 0;
     box-sizing: content-box;
     background-color: #ffffff;
+    font-family: 'Source Sans Pro',sans-serif;
 }
 
 .container{
@@ -75,7 +76,6 @@ main{
 
 .mancheteGrande{
     text-align: left;
-    font-family: 'Arazati Negra Expandida';
     margin: 10px 5px;
 }
 
@@ -116,7 +116,6 @@ main{
 
 .mancheteP{
     margin-left: 5px;
-    font-family: 'Arazati Negra Expandida';
     color: black;
 }
 
@@ -155,8 +154,6 @@ button{
     display: grid;
     grid-template-columns: 6fr 4fr;
     grid-template-areas: "noticias6blocos materiasEspeciais";
-    
-    font-family: 'Arazati Negra Expandida';
 }
 
 .noticias6blocos{
@@ -187,15 +184,15 @@ button{
 
 h2{
     margin-left: 15px;
-    font-family: 'Arazati Negra Expandida';
+    
 }
 
 h3{ margin-left: 15px;
-    font-family: 'Arazati Negra Expandida';
+    
 }
 
 h4{ margin-left: 15px;
-    font-family: 'Arazati Negra Expandida';
+    
 }
 
 .hrprincipal{

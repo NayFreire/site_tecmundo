@@ -1,7 +1,7 @@
 footer{
     height: 100%;
     display: grid;
-    font-family: 'Arazati Negra Expandida';
+    font-family: 'Source Sans Pro',sans-serif;
     grid-area: footer;
 }
 

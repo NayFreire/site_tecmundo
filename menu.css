@@ -4,6 +4,7 @@
     background-color: #fff;
     align-content: space-between;
     margin-bottom: -10px;
+    
 }
 
 .navigation ul {
@@ -28,7 +29,7 @@
 
 a {
     color: black;
-    font-family: 'Arazati Negra Expandida';
+    font-family: 'Source Sans Pro',sans-serif;
     text-decoration: none;
     background:white;
     display: inline-block;
